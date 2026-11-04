@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1a"/><stop offset="1" stop-color="#10233f"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0"/><stop offset="0.8" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="m"><rect width="1600" height="360" fill="url(#fade)"/></mask>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#2a4468" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="360" fill="url(#bg)"/>
+  <g mask="url(#m)">
+    <rect width="1600" height="360" fill="url(#grid)"/>
+    <g transform="translate(75,0)" fill="none" stroke="#4fc3e8" stroke-width="2" opacity="0.55" stroke-linejoin="round">
+      <path d="M1010 120H1130V220H1250V150H1380V240H1500"/>
+      <path d="M1130 120V70H1290"/>
+      <path d="M1250 220V290H1400"/>
+      <circle cx="1010" cy="120" r="9"/><circle cx="1130" cy="220" r="9"/>
+      <circle cx="1380" cy="150" r="9"/><circle cx="1500" cy="240" r="9"/>
+      <rect x="1290" y="50" width="60" height="40" rx="6"/>
+      <rect x="1400" y="270" width="70" height="40" rx="6"/>
+    </g>
+  </g>
+  <g font-family="Inter, 'DejaVu Sans', sans-serif">
+    <text x="100" y="172" font-size="88" font-weight="700" fill="#f1f5f9" letter-spacing="-1">Patricio Osorio Jéldrez</text>
+    <text x="104" y="240" font-size="54" font-weight="500" fill="#5ec4e8">Chemical Engineer</text>
+    <rect x="104" y="272" width="80" height="5" rx="2.5" fill="#5ec4e8"/>
+  </g>
+</svg>
